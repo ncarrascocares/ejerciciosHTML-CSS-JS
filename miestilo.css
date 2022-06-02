@@ -1,0 +1,68 @@
+/*Selector universal*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /*Tipo de letra*/
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+
+/*Centrando el cuerpo*/
+
+body {
+    text-align: center;
+}
+
+
+/*referenciando por primera vez un elemento a través del valor de su atributo id*/
+
+#agrupar {
+    /*establece el ancho de la caja donde se aloja todo el contenido*/
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+#menu {
+    background: #cccccc;
+    padding: 5px 15px;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+
+#seccion {
+    float: left;
+    width: 66%;
+    margin: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripcion" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este es el título pricipal del sitio web</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+
+    <div id="agrupar">
+        <!-- Inicio de la seccion de la cabecera, la intención del header es entregar infrmación introductoria(títulos, subtítulos, logos) -->
+        <header id="cabecera">
+            <h1>Este es el título principal del sitio web</h1>
+        </header>
+
+        <!-- Fin de la seccion de la cabecera -->
+
+        <!-- nav hace referencía a la navegación de la página -->
+        <nav id="menu">
+            <ul>
+                <li>Principal</li>
+                <li>Fotos</li>
+                <li>Videos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <!-- fin del nav -->
+
+        <!-- Sección relevante dek sitio -->
+        <section id="seccion">
+            <!-- las etiquetas article son secciones dentro del section, y se consideran hijas del section, por estar dentro -->
+            <article>
+                <header>
+                    <!-- hgroup permite agrupar las etiquetas h -->
+                    <hgroup>
+                        <!-- las etiquetas h deben conservar su jerarquia, primero las h1, luego las h2 y asi sucesivamente -->
+                        <h1>Título del mensaje uno</h1>
+                        <h2>Subtítulo del mensaje uno</h2>
+                    </hgroup>
+                    <p>publicado 02-06-2022</p>
+                </header>
+                Este es el texto de mi primer mensaje
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        Esta es la imagen del primer mensaje
+                    </figcaption>
+                </figure>
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <!-- hgroup permite agrupar las etiquetas h -->
+                    <hgroup>
+                        <h1>Título del mensaje dos</h1>
+                        <h2>Subtítulo del mensaje dos</h2>
+                    </hgroup>
+                </header>
+                <p>publicado 02-06-2022</p>
+                Este es el texto de mi segundo mensaje
+                <footer>
+                    <p>Comentarios (0)</p>
+                    <address>
+
+                    <a href="http://clientes.inatrans.cl/">Inatrans</a>
+                </address>
+                </footer>
+            </article>
+        </section>
+        <!-- fin del section -->
+
+        <!-- Los aside pueden estar al lado derecho o izquierdo, entregan información adicional -->
+        <aside id="columna">
+            <blockquote>Mensaje número uno</blockquote>
+            <blockquote>Mensaje número dos</blockquote>
+        </aside>
+
+        <footer id="pie">
+            Derechos reservados &copy; 2022
+        </footer>
+    </div>
+
+</body>
+
+</html>
