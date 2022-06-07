@@ -63,6 +63,43 @@ body {
 
 #seccion {
     float: left;
-    width: 66%;
+    width: 660px;
     margin: 20px;
+}
+
+
+/*Referencia a todos los elementos article*/
+
+article {
+    background: #fffbcc;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+}
+
+time {
+    color: #999999;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #cccccc;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
 }
