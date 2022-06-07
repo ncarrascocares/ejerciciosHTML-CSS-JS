@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Este es el titulo</h1>
+    </header>
+    <!--Elemento creado para contener la navegación-->
+    <nav>
+        <!--elementos a cran enlaces-->
+        <a href="">Principal</a>
+        <a href="">Fotos</a>
+        <a href="">Videos</a>
+        <a href="">Contacto</a>
+    </nav>
+    <main>
+        <section>
+            <dl>
+                <dt>Libro IT</dt>
+                <div class="libros">Stephen King</div>
+                <dd>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quos repudiandae aspernatur! Provident culpa vero laudantium ipsam facere, labore nemo perspiciatis impedit iure quasi! Fugiat explicabo fuga facere inventore pariatur!
+                </dd>
+                <dt>Libro Carrie</dt>
+                <div class="libros">, Stephen King</div>
+                <dd>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores veniam dignissimos, possimus impedit illo excepturi dolorem molestiae amet ratione doloremque enim molestias eos itaque consectetur a, officiis eaque tenetur.
+                </dd>
+                <dt>Libro El resplandor</dt>
+                <div class="libros">Stephen King</div>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptatum provident? Eos beatae nam ratione vel! Eos est, ea provident eligendi voluptates eveniet minus perferendis adipisci voluptas vitae magni aliquam.
+                </dd>
+                <dt>Libro Misery</dt>
+                <div class="libros">, Stephen King</div>
+                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, reprehenderit quae. Dolor impedit, cupiditate laboriosam debitis sapiente soluta laborum repudiandae est iste doloribus culpa, neque quibusdam magnam repellendus obcaecati totam.
+                </dd>
+            </dl>
+            <article>
+
+                <!--Listado de items -->
+                <details>
+                    <summary>Mis libros</summary>
+                    <p>IT</p>
+                    <p>Carrie</p>
+                    <p>El resplandor</p>
+                    <p>Misery</p>
+                </details>
+            </article>
+            <article>
+                Este es el texto de mi primer Artículo
+            </article>
+            <article>
+                Este es el texto de mi segundo Artículo
+            </article>
+            <article>
+                <!--el elemento pre nos permite mostar el texto tal cual se escriba -->
+                <pre>
+        La muerte es una <em>quimera</em>: porque mientras yo existo, no existe la
+        <i>muerte;</i> 
+        y cuando existe la muerte,<strong> ya no existo yo.</strong> 
+        Epicuro de Samos
+                </pre>
+            </article>
+            <article>
+                <header id="titulo">
+                    <h1>Título del artículo</h1>
+                    <time datetime="2016-10-12" pubdate>publicado 12-10-2016</time>
+                </header>
+                <p>La muerte es una quimera: porque mientras yo <mark>existo</mark>, no existe la muerte;<br>y cuando existe la muerte, ya no existo yo.
+                    <br><cite>Epicuro de Samos</cite></p>
+            </article>
+
+            <article>
+                <!--pre permite mostar el contenido tal como fue declarado-->
+                <pre>
+                    <!--el elemento code indica que el contenido es código de programación y lo mustra tal como se declara-->
+                <code>
+                function cambiarColor() {
+                document.body.style.backgroundColor = "#0000FF";
+                }
+                document.addEventListener("click", cambiarColor);
+                </code>
+                </pre>
+            </article>
+            <p><a href="#pie">footer</a></p>
+            <article>
+                <!--tablas-->
+                <table>
+                    <tr>
+                        <th colspan="2">Título</th>
+                        <th>año</th>
+                    </tr>
+                    <tr>
+                        <td>IT</td>
+                        <td>Stephen King</td>
+                        <td>1986</td>
+                    </tr>
+                    <tr>
+                        <td>Carrie</td>
+                        <td>Stephen King</td>
+                        <td>1986</td>
+                    </tr>
+                    <tr>
+                        <td>El resplandor</td>
+                        <td>Stephen King</td>
+                        <td>1986</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <!--El elemento aside describe la información que contiene, no un lugar en la estrcutura, por lo que se podria ubicar en cualquier parte del diseño-->
+        <aside>
+            <p>Cita del artículo uno</p>
+            <p>Cita del artículo dos</p>
+        </aside>
+    </main>
+    <footer id="pie">
+        <address>Huechuraba Chile</address>
+        <!--la opción mailto y tel que se encuentran dentro el elemento a permiten efectuar enlace a correos y a los tel´sfonos-->
+        <small>&copy; Derechos Reservados 2016 <a href="tel:+56999423029">Llamame</a> <a href="mailto:ncarrasco@inatrans.cl">o enviame un correo </a> </small>
+        <a href="mevacuno.pdf" download>Clic aquí para descargar</a>
+    </footer>
+</body>
+
+</html>
